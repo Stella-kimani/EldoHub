@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np 
 
 
-def wate_hole_analyser(json_string):
+def water_hole_analyser(json_string):
     url=f'{json_string}'
     df=pd.read_json(url)
     #number of waterpoints that are functional
@@ -27,4 +27,4 @@ if __name__=='__main__':
     parser.add_argument("data_url", help='add the json string url')
     args=parser.parse_args()
     print(args.data_url)
-    wate_hole_analyser(args.data_url)
+    water_hole_analyser(args.data_url)
