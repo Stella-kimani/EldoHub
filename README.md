@@ -1,11 +1,24 @@
 # EldoHub
 
-base) data2020@data2020:/home/data2020/personal/Stella_k$ python Stella_K.py -h
+## How To run the programme
 
-usage: Stella_K.py [-h] data_url
+**Clone the project:**
 
-positional arguments: data_url add the json string url
+```comandline
+git clone https://github.com/Stella-kimani/EldoHub.git
+```
 
-optional arguments: -h, --help show this help message and exit
+**Cd into the directory**
 
-(base) data2020@data2020:/home/data2020/personal/Stella_K$
+```comandline
+cd EldoHub
+```
+
+**Run main.py file**
+The arguments of the file is the url with the json information
+
+```comandline
+python3 main.py  https://raw.githubusercontent.com/onaio/ona-tech/master/data/water_points.json
+```
+
+
